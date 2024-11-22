@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HiperABCKids"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tracejado_F"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Tracejado_E"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Desenho_vogal_u"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Desenho_vogal_a"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Desenho_vogal_e"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Desenho_vogal_i"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Desenho_vogal_o"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Tracejado_D"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Tracejado_C"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Tracejado_B"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Tracejado_A"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Parabenizacao"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Transporte"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Objetos3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Objetos2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Objetos1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Vogais"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Alfabeto2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Alfabeto1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Frutas2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Frutas1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Animais3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Animais2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jogo_Memoria_Animais1"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TelaAlfabeto"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Tela_menu"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TelaJogar"
+            android:exported="false" />
+        <activity
+            android:name=".Tela_Splash"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

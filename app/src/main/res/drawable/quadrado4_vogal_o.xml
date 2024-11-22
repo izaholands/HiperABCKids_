@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <padding android:bottom="4dp" /> <!-- preenchimento de 2dp na direita e embaixo-->
+            <solid android:color="#F8E478" /> <!--cor da sombra-->
+            <corners android:radius ="25dp" />
+        </shape>
+    </item>
+
+    <!-- quadrado com contorno-->
+    <item>
+        <shape>
+            <solid android:color="#FFF6C5" /> <!--cor de fundo do quadrado-->
+            <size android:width="141dp" android:height="176dp" />
+            <corners android:radius="25dp"/>  <!-- arrendondamento do quadrado-->
+
+        </shape>
+
+
+    </item>
+</layer-list>
+

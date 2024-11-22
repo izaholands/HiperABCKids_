@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parabenizacao">
+
+    <LinearLayout
+        android:id="@+id/layoutLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/layoutFrame"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/comemoracao"
+                android:layout_width="403dp"
+                android:layout_height="268dp"
+                android:background="@drawable/comemoracao"
+                android:elevation="26dp"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="150dp"
+                android:layout_marginBottom="70dp"
+                android:elevation="26dp"
+                app:srcCompat="@drawable/cara_feliz"
+                tools:layout_editor_absoluteX="115dp"
+                tools:layout_editor_absoluteY="59dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="275dp"
+                android:layout_height="109dp"
+                android:layout_gravity="center"
+                android:elevation="26dp"
+                android:fontFamily="@font/concert_one"
+                android:text="Parabéns, você concluiu o jogo da memória !!"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="20dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="209dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardBackgroundColor="#89D6FF"
+                app:cardElevation="27dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center">
+
+                <View
+                    android:layout_width="209dp"
+                    android:layout_height="60dp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="54dp"
+                android:layout_height="55dp"
+                android:background="@drawable/opcoes_comemoracao"
+                android:layout_gravity="center"
+                android:elevation="27dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp"/>
+
+            <ImageButton
+                android:id="@+id/ButtonCasa"
+                android:onClick="casa"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/casa"
+                android:layout_gravity="center"
+                android:elevation="27dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="40dp" />
+
+            <View
+                android:layout_width="54dp"
+                android:layout_height="55dp"
+                android:background="@drawable/opcoes_comemoracao"
+                android:layout_gravity="center"
+                android:elevation="27dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="40dp"/>
+
+            <ImageButton
+                android:id="@+id/ButtonRepetir"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="repetir"
+                android:background="@drawable/repetir_comemoracao"
+                android:layout_gravity="center"
+                android:elevation="27dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="40dp"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="60dp"
+                android:layout_height="56dp"
+                android:background="@drawable/confetti"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="650dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/espumante__1_"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="120dp"
+                android:elevation="27dp"/>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/espumante"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="40dp"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/espumante__1_"
+                android:layout_marginTop="297dp"
+                android:layout_marginLeft="103dp"
+                android:elevation="27dp"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/espumante__1_"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="250dp"
+                android:elevation="27dp" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/espumante__1_"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="450dp"
+                android:elevation="27dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/confetti2"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="80dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/espumante"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="570dp"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/espumante__1_"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="620dp"
+                android:elevation="27dp"/>
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/confetti2"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="580dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/espumante"
+                android:layout_marginTop="330dp"
+                android:layout_marginLeft="630dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="43dp"
+                app:cardCornerRadius="7dp"
+                android:backgroundTint="#02DC09"
+                android:layout_gravity="center"
+                app:cardElevation="26dp"
+                android:layout_marginBottom="130dp"
+                android:layout_marginLeft="20dp">
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="43dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAlignment="center"
+                        android:text="VITÓRIA"
+                        android:fontFamily="@font/coiny"
+                        android:textSize="25dp"
+                        android:textColor="#FFFFFF"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
